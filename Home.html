@@ -74,7 +74,7 @@
                 >
                   <img src="assets/avatar.png" class="img-fluid w-75" alt="" />
                 </div>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu dropdown-menu-end">
                   <li><a class="dropdown-item">Menu</a></li>
                   <li><a class="dropdown-item">Option</a></li>
                 </ul>
@@ -84,7 +84,7 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="d-flex flex-column">
       <!-- TITOLO DUE COL SEPARATE -->
       <div class="container">
         <div class="row align-items-center">
@@ -99,10 +99,11 @@
             >
               Genres
             </button>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu bg-dark text-light">
               <li>Action</li>
               <li>Dramatic</li>
               <li>Horror</li>
+              <li>Anime</li>
             </ul>
           </div>
 
@@ -128,10 +129,10 @@
         <!-- fine row titolo e links vari -->
       </div>
       <!-- INIZIO TRENDING -->
-      <div class="container pt-4 pb-3"><h5>Trending Now</h5></div>
-      <!--  -->
+
       <!-- Inizio schede -->
       <div class="container">
+        <div class="container pt-4 pb-3"><h5>Trending Now</h5></div>
         <!-- Primo row -->
         <div class="row mb-4">
           <div class="col-6 col-md-4 col-lg-2 px-1">
@@ -275,13 +276,13 @@
         <!-- FINE SCHEDE -->
         <footer>
           <div class="container-fluid w-75">
-            <div class="row">
-              <i class="col-1 bi-facebook"></i>
-              <i class="col-1 bi bi-instagram"></i>
-              <i class="col-1 bi bi-twitter"></i>
-              <i class="col-8 bi bi-youtube"></i>
+            <div class="row justify-content-start">
+              <i class="col-1 bi-facebook text-secondary"></i>
+              <i class="col-1 bi bi-instagram text-secondary"></i>
+              <i class="col-1 bi bi-twitter text-secondary"></i>
+              <i class="col-8 bi bi-youtube text-secondary"></i>
             </div>
-            <div class="row flex-column flex-md-row pt-5 pt-md-4 pd-lg-0">
+            <div class="row flex-column flex-lg-row pt-5 pt-md-4 pd-lg-0">
               <div class="col">
                 <ul class="list-unstyled text-secondary">
                   <li>
@@ -370,7 +371,7 @@
                 href="#"
                 >Service Code</a
               >
-              <p class="text-secondary mt-2">@1997-2017 Netflix,inc</p>
+              <p class="text-secondary my-3">&copy 1997-2017 Netflix,inc</p>
             </div>
           </div>
           <!-- fine container icone e liste -->
